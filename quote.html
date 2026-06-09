@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request a Quote — Verdant Global Services</title>
+  <meta name="description" content="Submit an equipment or parts inquiry to Verdant Global Services. We respond within one business day, and within the hour for emergencies.">
+  <link rel="icon" type="image/svg+xml" href="brand/verdant-icon-dark.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="urgency-bar">
+    Emergency parts sourcing available 24/7 &mdash; Use the form below and select <strong>Emergency</strong> urgency
+  </div>
+
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="brand/verdant-logo-dark.svg" alt="Verdant Global Services">
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="industries.html" class="nav-link">Industries</a>
+          <a href="sourcing.html" class="nav-link">Sourcing</a>
+          <a href="logistics.html" class="nav-link">Logistics</a>
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="nav-actions">
+          <a href="quote.html" class="btn btn-gold btn-sm active">Request a Quote</a>
+          <button class="hamburger" id="menu-toggle" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="industries.html" class="nav-link">Industries</a>
+    <a href="sourcing.html" class="nav-link">Sourcing</a>
+    <a href="logistics.html" class="nav-link">Logistics</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="quote.html" class="btn btn-gold">Request a Quote</a>
+  </div>
+
+  <main>
+
+    <!-- Page Hero -->
+    <div class="page-hero" style="margin-top: calc(var(--nav-height) + 40px);">
+      <div class="container">
+        <span class="eyebrow">Get Started</span>
+        <h1 class="display-1" style="color: var(--white); margin-top: 14px;">Request<br>a Quote</h1>
+        <p class="page-hero-desc">
+          Fill out the form below and our sourcing team will respond with pricing and availability. Standard requests within one business day. Emergency requests within the hour.
+        </p>
+      </div>
+    </div>
+
+    <!-- Form Section -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="form-wrap">
+
+          <!-- ================================================================
+               FORMSPREE SETUP:
+               1. Sign up free at https://formspree.io
+               2. Create a new form
+               3. Replace "YOUR_FORM_ID" in the action below with your form ID
+               Example: action="https://formspree.io/f/xpwzqrla"
+               Formspree will email you every submission automatically.
+               ================================================================ -->
+          <form
+            id="quote-form"
+            action="https://formspree.io/f/xeewkdwl"
+            method="POST"
+          >
+
+            <div class="form-grid">
+
+              <!-- Contact Info -->
+              <div class="form-section-title">Contact Information</div>
+
+              <div class="form-group">
+                <label class="form-label" for="first-name">First Name *</label>
+                <input class="form-control" type="text" id="first-name" name="first_name" required placeholder="John">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="last-name">Last Name *</label>
+                <input class="form-control" type="text" id="last-name" name="last_name" required placeholder="Smith">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address *</label>
+                <input class="form-control" type="email" id="email" name="email" required placeholder="john.smith@company.com">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number</label>
+                <div class="phone-group">
+                  <select class="form-control code-select" name="phone_country_code" id="phone-code">
+                    <option value="+1">+1 US/CA</option>
+                    <option value="+44">+44 UK</option>
+                    <option value="+234">+234 NG</option>
+                    <option value="+966">+966 SA</option>
+                    <option value="+971">+971 UAE</option>
+                    <option value="+974">+974 QA</option>
+                    <option value="+965">+965 KW</option>
+                    <option value="+968">+968 OM</option>
+                    <option value="+964">+964 IQ</option>
+                    <option value="+973">+973 BH</option>
+                    <option value="+47">+47 NO</option>
+                    <option value="+55">+55 BR</option>
+                    <option value="+61">+61 AU</option>
+                    <option value="+91">+91 IN</option>
+                    <option value="+60">+60 MY</option>
+                    <option value="+62">+62 ID</option>
+                    <option value="+52">+52 MX</option>
+                    <option value="+57">+57 CO</option>
+                    <option value="+58">+58 VE</option>
+                    <option value="+244">+244 AO</option>
+                    <option value="+258">+258 MZ</option>
+                    <option value="+27">+27 ZA</option>
+                    <option value="+20">+20 EG</option>
+                    <option value="+213">+213 DZ</option>
+                    <option value="+218">+218 LY</option>
+                    <option value="+241">+241 GA</option>
+                    <option value="+240">+240 GQ</option>
+                    <option value="+242">+242 CG</option>
+                    <option value="+233">+233 GH</option>
+                    <option value="+7">+7 RU</option>
+                    <option value="+7">+7 KZ</option>
+                    <option value="+994">+994 AZ</option>
+                    <option value="+63">+63 PH</option>
+                    <option value="+84">+84 VN</option>
+                    <option value="+86">+86 CN</option>
+                    <option value="+82">+82 KR</option>
+                    <option value="+81">+81 JP</option>
+                    <option value="+49">+49 DE</option>
+                    <option value="+31">+31 NL</option>
+                    <option value="+33">+33 FR</option>
+                    <option value="+34">+34 ES</option>
+                    <option value="+39">+39 IT</option>
+                    <option value="+48">+48 PL</option>
+                    <option value="+54">+54 AR</option>
+                    <option value="+593">+593 EC</option>
+                    <option value="+1-868">+1-868 TT</option>
+                    <option value="+675">+675 PG</option>
+                    <option value="+64">+64 NZ</option>
+                    <option value="+65">+65 SG</option>
+                    <option value="+92">+92 PK</option>
+                    <option value="+880">+880 BD</option>
+                  </select>
+                  <input class="form-control" type="tel" id="phone" name="phone_number" placeholder="Phone number">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="company">Company Name *</label>
+                <input class="form-control" type="text" id="company" name="company" required placeholder="Your Company">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="job-title">Job Title</label>
+                <input class="form-control" type="text" id="job-title" name="job_title" placeholder="Procurement Manager">
+              </div>
+
+              <!-- Equipment Details -->
+              <div class="form-section-title">Equipment Details</div>
+
+              <div class="form-group">
+                <label class="form-label" for="industry">Industry *</label>
+                <select class="form-control" id="industry" name="industry" required>
+                  <option value="" disabled selected>Select your industry</option>
+                  <option value="offshore-drilling">Offshore Drilling</option>
+                  <option value="onshore-drilling">Onshore Drilling</option>
+                  <option value="construction">Construction</option>
+                  <option value="agriculture">Agriculture</option>
+                  <option value="mining">Mining & Extraction</option>
+                  <option value="power-energy">Power & Energy</option>
+                  <option value="marine">Marine & Maritime</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="quantity">Quantity</label>
+                <input class="form-control" type="text" id="quantity" name="quantity" placeholder="e.g. 1 unit, 50 pcs">
+              </div>
+
+              <div class="form-group form-full">
+                <label class="form-label" for="equipment">Equipment / Part Description *</label>
+                <input class="form-control" type="text" id="equipment" name="equipment" required placeholder="e.g. Caterpillar 3516 Cylinder Head Assembly, Part# 1W6541">
+              </div>
+
+              <div class="form-group form-full">
+                <label class="form-label" for="part-numbers">Part Numbers / Specs (if known)</label>
+                <textarea class="form-control" id="part-numbers" name="part_numbers" rows="3" placeholder="Include OEM part numbers, serial numbers, model numbers, or technical specifications to help us source accurately."></textarea>
+              </div>
+
+              <div class="form-section-title" style="grid-column:1/-1">Delivery Address</div>
+
+              <div class="form-group form-full">
+                <label class="form-label" for="address">Address / Site Name</label>
+                <input class="form-control" type="text" id="address" name="address" placeholder="Street address, warehouse, platform name, rig name, or offshore block">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="city">City / Port *</label>
+                <input class="form-control" type="text" id="city" name="city" required placeholder="City or nearest port">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="state">State / Province / Region</label>
+                <input class="form-control" type="text" id="state" name="state" placeholder="State, province, or region">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="postal-code">Postal / ZIP Code</label>
+                <input class="form-control" type="text" id="postal-code" name="postal_code" placeholder="Postal or ZIP code">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="country">Country *</label>
+                <select class="form-control" id="country" name="country" required>
+                  <option value="" disabled selected>Select country</option>
+                  <optgroup label="Most Active Markets">
+                    <option>Nigeria</option>
+                    <option>Saudi Arabia</option>
+                    <option>United Arab Emirates</option>
+                    <option>Qatar</option>
+                    <option>Kuwait</option>
+                    <option>Iraq</option>
+                    <option>Oman</option>
+                    <option>Bahrain</option>
+                    <option>Norway</option>
+                    <option>United Kingdom</option>
+                    <option>United States</option>
+                    <option>Canada</option>
+                    <option>Brazil</option>
+                    <option>Angola</option>
+                    <option>Mozambique</option>
+                    <option>Ghana</option>
+                    <option>Equatorial Guinea</option>
+                    <option>Gabon</option>
+                    <option>Republic of Congo</option>
+                    <option>Algeria</option>
+                    <option>Libya</option>
+                    <option>Egypt</option>
+                    <option>South Africa</option>
+                    <option>Malaysia</option>
+                    <option>Indonesia</option>
+                    <option>Australia</option>
+                    <option>India</option>
+                    <option>Kazakhstan</option>
+                    <option>Azerbaijan</option>
+                    <option>Mexico</option>
+                    <option>Colombia</option>
+                    <option>Trinidad and Tobago</option>
+                  </optgroup>
+                  <optgroup label="All Countries">
+                    <option>Afghanistan</option><option>Albania</option><option>Argentina</option>
+                    <option>Armenia</option><option>Austria</option><option>Bangladesh</option>
+                    <option>Belgium</option><option>Bolivia</option><option>Cameroon</option>
+                    <option>Chile</option><option>China</option><option>Croatia</option>
+                    <option>Czech Republic</option><option>Democratic Republic of Congo</option>
+                    <option>Denmark</option><option>Ecuador</option><option>Ethiopia</option>
+                    <option>Finland</option><option>France</option><option>Germany</option>
+                    <option>Greece</option><option>Guatemala</option><option>Guinea</option>
+                    <option>Hungary</option><option>Iran</option><option>Ireland</option>
+                    <option>Israel</option><option>Italy</option><option>Ivory Coast</option>
+                    <option>Japan</option><option>Jordan</option><option>Kenya</option>
+                    <option>Lebanon</option><option>Liberia</option><option>Madagascar</option>
+                    <option>Malawi</option><option>Malta</option><option>Mauritania</option>
+                    <option>Morocco</option><option>Myanmar</option><option>Namibia</option>
+                    <option>Netherlands</option><option>New Zealand</option><option>Niger</option>
+                    <option>Pakistan</option><option>Panama</option><option>Papua New Guinea</option>
+                    <option>Paraguay</option><option>Peru</option><option>Philippines</option>
+                    <option>Poland</option><option>Portugal</option><option>Romania</option>
+                    <option>Russia</option><option>Rwanda</option><option>Senegal</option>
+                    <option>Sierra Leone</option><option>Singapore</option><option>Somalia</option>
+                    <option>South Korea</option><option>South Sudan</option><option>Spain</option>
+                    <option>Sudan</option><option>Sweden</option><option>Switzerland</option>
+                    <option>Syria</option><option>Tanzania</option><option>Thailand</option>
+                    <option>Tunisia</option><option>Turkey</option><option>Uganda</option>
+                    <option>Ukraine</option><option>Uruguay</option><option>Venezuela</option>
+                    <option>Vietnam</option><option>Yemen</option><option>Zambia</option>
+                    <option>Zimbabwe</option><option>Other</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="required-by">Required By (Date)</label>
+                <input class="form-control" type="date" id="required-by" name="required_by">
+              </div>
+
+              <!-- Urgency -->
+              <div class="form-section-title">Request Urgency</div>
+
+              <div class="form-group form-full">
+                <label class="form-label" style="margin-bottom: 10px;">How urgent is your need? *</label>
+                <div class="urgency-group">
+                  <div class="urgency-option">
+                    <input type="radio" id="urgency-standard" name="urgency" value="Standard" required>
+                    <label class="urgency-label" for="urgency-standard">
+                      <div class="urgency-tag">Standard</div>
+                      <div class="urgency-desc">Within 1&ndash;3 business days. Planned procurement or replenishment.</div>
+                    </label>
+                  </div>
+                  <div class="urgency-option">
+                    <input type="radio" id="urgency-urgent" name="urgency" value="Urgent">
+                    <label class="urgency-label" for="urgency-urgent">
+                      <div class="urgency-tag" style="color: var(--gold-dark);">Urgent</div>
+                      <div class="urgency-desc">Respond same day. Equipment down or production at risk within 24&ndash;48 hrs.</div>
+                    </label>
+                  </div>
+                  <div class="urgency-option">
+                    <input type="radio" id="urgency-emergency" name="urgency" value="Emergency">
+                    <label class="urgency-label" for="urgency-emergency">
+                      <div class="urgency-tag" style="color: #b71c1c;">Emergency</div>
+                      <div class="urgency-desc">Respond within the hour. Operation currently down. Every minute counts.</div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Additional Notes -->
+              <div class="form-section-title">Additional Information</div>
+
+              <div class="form-group form-full">
+                <label class="form-label" for="notes">Additional Notes</label>
+                <textarea class="form-control" id="notes" name="notes" rows="4" placeholder="Any other details that will help us source accurately: operating conditions, previous supplier, preferred brands, budget range, etc."></textarea>
+              </div>
+
+              <!-- How did you hear -->
+              <div class="form-group form-full">
+                <label class="form-label" for="source">How did you hear about us?</label>
+                <select class="form-control" id="source" name="source">
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="google">Google / Search</option>
+                  <option value="referral">Referral from colleague</option>
+                  <option value="linkedin">LinkedIn</option>
+                  <option value="trade-show">Trade Show / Conference</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <!-- Hidden field for form identification -->
+              <input type="hidden" name="_subject" value="New Quote Request — Verdant Global Services">
+
+              <!-- Submit -->
+              <div class="form-submit form-full">
+                <button type="submit" class="btn btn-gold btn-lg form-submit-btn" style="width: 100%; font-size: 15px; padding: 18px;">
+                  Submit Quote Request
+                </button>
+                <p class="form-note" style="margin-top: 12px; text-align: center;">
+                  By submitting this form, you agree that Verdant Global Services may contact you regarding your inquiry. We do not share your information with third parties.
+                </p>
+              </div>
+
+            </div>
+          </form>
+
+          <!-- Success Message (shown after submission) -->
+          <div id="form-success" class="form-success">
+            <h3>Request Received</h3>
+            <p>Thank you for your inquiry. Our sourcing team will review your request and respond within the timeframe matching your selected urgency level. Check your email for a confirmation.</p>
+            <p style="margin-top: 8px; font-size: 13px; color: #888;">If this is an emergency and you don't hear back within 30 minutes, please call us directly at <a href="tel:+17076763876" style="color: var(--green-mid); font-weight: 600;">+1 707-676-3876</a>.</p>
+          </div>
+
+        </div>
+
+        <!-- Contact info below form -->
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Email</h4>
+            <p><a href="mailto:Info@verdantglobalservices.com">Info@verdantglobalservices.com</a><br>For non-urgent general inquiries.</p>
+          </div>
+          <div class="contact-card">
+            <h4>Phone</h4>
+            <p><a href="tel:+17076763876">+1 707-676-3876</a><br>Available 24/7 for emergency sourcing requests.</p>
+          </div>
+          <div class="contact-card">
+            <h4>Response Times</h4>
+            <p>Standard: 1 business day<br>Urgent: Same day<br>Emergency: Within the hour</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><img src="brand/verdant-logo-dark.svg" alt="Verdant Global Services"></div>
+          <p>Global procurement specialists for industrial equipment and parts. Serving the toughest industries worldwide.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="sourcing.html">Sourcing & Suppliers</a></li>
+            <li><a href="logistics.html">Logistics & Delivery</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Industries</h4>
+          <ul>
+            <li><a href="industries.html#offshore">Offshore Drilling</a></li>
+            <li><a href="industries.html#onshore">Onshore Drilling</a></li>
+            <li><a href="industries.html#construction">Construction</a></li>
+            <li><a href="industries.html#agriculture">Agriculture</a></li>
+            <li><a href="industries.html#mining">Mining</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="quote.html">Request a Quote</a></li>
+            <li><a href="mailto:Info@verdantglobalservices.com">Info@verdantglobalservices.com</a></li>
+            <li><a href="tel:+17076763876">+1 707-676-3876</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Verdant Global Services. All rights reserved.</p>
+        <div class="footer-badge">Available for emergency inquiries 24/7</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

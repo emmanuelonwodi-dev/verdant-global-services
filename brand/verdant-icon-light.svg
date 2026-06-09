@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 120 132" width="120" height="132">
+  <!-- Verdant Global Solutions — Icon, Light Theme -->
+  <!-- Colors: Green #1B5E20, Gold #8B6914 | For use on light backgrounds (#EEE9DE) -->
+
+  <!-- Shackle pin -->
+  <rect x="46.5" y="0" width="7" height="5" rx="2.5" fill="#1B5E20"/>
+
+  <!-- Ring -->
+  <circle cx="50" cy="15" r="11.5" fill="none" stroke="#1B5E20" stroke-width="6"/>
+
+  <!-- Left leaf (V signature) -->
+  <path d="M49.5,21.5 C47,21 43,17.5 42,15.5 C41.5,13 43.5,9.5 44.5,8 C44.5,8.5 49,12.5 49.5,16 C49.8,19 50,21 49.5,21.5 Z" fill="#1B5E20"/>
+  <line x1="49.5" y1="21.5" x2="44.5" y2="8" stroke="#8B6914" stroke-width="0.85" stroke-linecap="round"/>
+  <path d="M48.4,18.8 Q47.4,19.4 46.3,19.1" fill="none" stroke="#8B6914" stroke-width="0.42" stroke-linecap="round" opacity="0.75"/>
+  <path d="M47.4,16.2 Q46.3,16.7 45.2,16.4" fill="none" stroke="#8B6914" stroke-width="0.42" stroke-linecap="round" opacity="0.70"/>
+  <path d="M46.4,13.5 Q45.3,13.9 44.3,13.6" fill="none" stroke="#8B6914" stroke-width="0.38" stroke-linecap="round" opacity="0.65"/>
+  <path d="M45.7,11.4 Q44.8,11.6 43.8,11.2" fill="none" stroke="#8B6914" stroke-width="0.35" stroke-linecap="round" opacity="0.60"/>
+
+  <!-- Right leaf (V signature) -->
+  <path d="M50.5,21.5 C53,21 57,17.5 58,15.5 C58.5,13 56.5,9.5 55.5,8 C55.5,8.5 51,12.5 50.5,16 C50.2,19 50,21 50.5,21.5 Z" fill="#1B5E20"/>
+  <line x1="50.5" y1="21.5" x2="55.5" y2="8" stroke="#8B6914" stroke-width="0.85" stroke-linecap="round"/>
+  <path d="M51.6,18.8 Q52.6,19.4 53.7,19.1" fill="none" stroke="#8B6914" stroke-width="0.42" stroke-linecap="round" opacity="0.75"/>
+  <path d="M52.6,16.2 Q53.7,16.7 54.8,16.4" fill="none" stroke="#8B6914" stroke-width="0.42" stroke-linecap="round" opacity="0.70"/>
+  <path d="M53.6,13.5 Q54.7,13.9 55.7,13.6" fill="none" stroke="#8B6914" stroke-width="0.38" stroke-linecap="round" opacity="0.65"/>
+  <path d="M54.3,11.4 Q55.2,11.6 56.2,11.2" fill="none" stroke="#8B6914" stroke-width="0.35" stroke-linecap="round" opacity="0.60"/>
+
+  <!-- Gold equatorial band -->
+  <rect x="7" y="25" width="86" height="13" rx="6.5" fill="#8B6914"/>
+
+  <!-- Shaft -->
+  <rect x="46.5" y="32" width="7" height="62" rx="3" fill="#1B5E20"/>
+
+  <!-- Crown -->
+  <circle cx="50" cy="92" r="6" fill="#1B5E20"/>
+
+  <!-- Arms -->
+  <path d="M49,88 C34,93 17,91 4,81" fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/>
+  <path d="M51,88 C66,93 83,91 96,81" fill="none" stroke="#1B5E20" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Flukes -->
+  <path d="M4,81 L-7,87 L-5,63 L7,73 Z" fill="#1B5E20"/>
+  <path d="M96,81 L107,87 L105,63 L93,73 Z" fill="#1B5E20"/>
+</svg>
